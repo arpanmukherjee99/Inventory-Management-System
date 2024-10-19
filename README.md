@@ -101,8 +101,8 @@ The application uses the Code First approach of Entity Framework Core.
 
 LOGIN WITH USERNAME OR EMAIL ADDRESS
 > * **Default Administrator Account**
->   * Email:    user@example.com
->   * Password: Password.123
+>   * Email:    user@example.com /amukharjeearpans99@gmail.com
+>   * Password: Password.123 /  123456789
 
 ## Contributing
 
