@@ -1,0 +1,84 @@
+.page-container {
+    background: #f8f8f8; /* Off-white background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: #0077ff; /* Bright blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header nav h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .cardWithShadow {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255); /* White background for contrast */
+  }
+  
+  .form-field-with-hover input {
+    background-color: #ffffff;
+    
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .form-field-with-hover:hover input {
+    background-color: #ffffff;
+    
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .password-toggle-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .btn-hover {
+    background-color: #2e90ff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-hover:hover {
+    background-color: #0044ff; /* Darker blue on hover */
+  }
+  
+  .footer {
+    background-color: #0077ff; /* Bright blue footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }

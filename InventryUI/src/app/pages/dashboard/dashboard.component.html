@@ -1,0 +1,22 @@
+<!-- Main content -->
+  <div class="main-content">
+    <mat-card class="cardWithShadow theme-card">
+      <mat-card-header class="premium-card-header">
+        <mat-card-title>Inventory Record Details</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="report-cards">
+          <mat-card class="report-card" *ngFor="let report of deviceReports">
+            <mat-card-header class="report-header">
+              <mat-card-title>{{ report.categoryName }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p><strong>💻 Total Devices:</strong> {{ report.totalDevices }}</p>
+              <p><strong>✅ Available:</strong> {{ report.available }}</p>
+              <p><strong>🚨 Faulty:</strong> {{ report.faulty }}</p>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
